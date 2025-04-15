@@ -3,7 +3,10 @@ import { Link } from "react-router-dom";
 
 function Hero() {
   return (
-    <div className="relative h-screen flex flex-col items-center justify-center bg-gradient-to-r from-blue-600 to-purple-600 text-white text-center p-6">
+    <div
+      className="relative flex flex-col items-center justify-center bg-gradient-to-r from-blue-600 to-purple-600 text-white text-center p-6"
+      style={{ height: "calc(87vh - 64px)" }} // Adjust if navbar height is different
+    >
       {/* Background Overlay */}
       <div className="absolute inset-0 bg-black opacity-30"></div>
 

@@ -168,7 +168,7 @@ function CreatTrip() {
               {SelectBudgetOptions.map((item, index) => (
                 <div
                   key={index}
-                  className={`p-4 border rounded-lg shadow-sm hover:shadow-md transition text-center cursor-pointer ${
+                  className={`p-4 border rounded-lg hover:scale-105 transition-all hover:shadow-md text-center cursor-pointer ${
                     tripData.selectedBudget === item.title
                       ? "border-blue-500 bg-blue-50"
                       : ""
@@ -191,11 +191,11 @@ function CreatTrip() {
             <h2 className="text-lg font-semibold mb-3">
               What type of traveler are you?
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
               {SelectTravelsList.map((item, index) => (
                 <div
                   key={index}
-                  className={`p-4 border rounded-lg shadow-sm hover:shadow-md transition text-center cursor-pointer ${
+                  className={`p-4 border rounded-lg hover:scale-105 transition-all hover:shadow-md text-center cursor-pointer ${
                     tripData.selectedTravelType === item.type
                       ? "border-blue-500 bg-blue-50"
                       : ""
@@ -258,6 +258,7 @@ function CreatTrip() {
         </div>
       )}
     </div>
+
   );
 }
 

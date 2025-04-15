@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer className="bg-gradient-to-r from-sky-500 via-blue-600 to-indigo-700 text-white py-6 mt-16 rounded-t-2xl shadow-inner">
+    <footer className="bg-gradient-to-r from-blue-600 to-purple-600 shadow-lg text-white py-6 mt-16 rounded-t-2xl shadow-inner">
       <div className="max-w-screen-xl mx-auto px-4 text-center space-y-2">
         <h2 className="text-xl md:text-2xl font-semibold tracking-wide">
           ✈️ Plan Smart. Travel Better.

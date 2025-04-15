@@ -13,7 +13,7 @@ function HotelCardItem({ hotel }) {
       >
         <div className="overflow-hidden rounded-t-xl">
           <img
-            src="/whiteboard.png"
+            src="/demo.png"
             className="w-full h-48 object-cover rounded-t-xl transition-transform duration-300 hover:scale-105"
             alt={hotel?.name}
           />

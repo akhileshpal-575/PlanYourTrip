@@ -47,10 +47,9 @@ function ViewTrip() {
       <section className="py-6 px-4 sm:px-8 lg:px-16">
         <Itinerary trip={trip} />
       </section>
-
       {/* Footer */}
-      <Footer />
-    </div>
+        <Footer />
+          </div>
   );
 }
 

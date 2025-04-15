@@ -4,8 +4,8 @@ function App() {
   return (
     <>
      <Toaster position="top-center" reverseOrder={false} />
-    <div className="text-center p-6">
-      <h1 className="text-4xl font-extrabold text-gray-800 mb-6">
+    <div className="text-center p-3">
+      <h1 className="text-3xl font-extrabold text-gray-800 mb-6">
         Your Ultimate Travel Planner ✈️🌍
       </h1>
       <Hero />
