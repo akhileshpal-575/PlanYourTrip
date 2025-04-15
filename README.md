@@ -1,19 +1,6 @@
 # 🌍 TripCraft - AI-Powered Trip Planner
 
 **TripCraft** is an intelligent trip planning web app that uses AI and location APIs to create personalized travel itineraries. Just enter your preferences like destination, budget, duration, and travel style—and TripCraft takes care of the rest with smart suggestions, maps, and hotel listings.
-
----
-
-## ✨ Features
-
-- 🧠 **AI-Based Trip Generation** using **Gemini API**  
-- 🗺️ **Google Maps Integration** for visualizing locations  
-- 🏨 **Smart Hotel Suggestions** using **OpenStreetMap** + **Wikipedia APIs**  (optional) prefer to use ggl place api
-- 📍 **Nearby Places** powered by **Google Places API**  
-- 🔐 **Google Sign-In Authentication** via **Firebase Auth**  
-- ⚠️ **Reliable Image Fallback Handling** for broken image links  
-- 🎨 **Responsive UI** with **Tailwind CSS**
-
 ---
 
 ## 🧰 Tech Stack
@@ -23,10 +10,10 @@
 | Frontend          | React.js                               |
 | Styling           | Tailwind CSS                           |
 | AI Integration    | Gemini API                             |
-| Maps & Location   | Google Maps API, Google Places API     |
+| Maps & Location   | Google Maps,openstreepmap api for place     |
 | Authentication    | Google Auth via Firebase               |
 | Hosting & Backend | Firebase Hosting + Firestore           |
-| Data Sources      | OpenStreetMap, Wikipedia API           |
+| Data Sources      | OpenStreetMap, Wikipedia API, unsplash api|
 
 ---
 
