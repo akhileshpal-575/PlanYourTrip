@@ -7,7 +7,7 @@ import {getFirestore} from "firebase/firestore";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyArNuKULSbJ_SDCVefUwBJ0yPpo8DVyTJo",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "tripcraft-be580.firebaseapp.com",
   projectId: "tripcraft-be580",
   storageBucket: "tripcraft-be580.firebasestorage.app",
