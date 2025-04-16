@@ -96,11 +96,5 @@ npm run build
 
 ---
 
-### Deploy to Firebase
-
-```bash
-firebase deploy
-```
 
 
->>>>>>> 01e68f1c41417dd92e62491b0de2d02f5d83f0ce
