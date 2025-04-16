@@ -74,7 +74,7 @@ function CreatTrip() {
 
     setLoading(true);
     const FINAL_PROMPT = generatePrompt(tripData);
-    console.log(FINAL_PROMPT);
+    // console.log(FINAL_PROMPT);
     try {
       const result = await chatSession.sendMessage(FINAL_PROMPT);
       console.log("--", result?.response?.text());
@@ -112,7 +112,7 @@ function CreatTrip() {
         }
       )
       .then((resp) => {
-        console.log(resp.data);
+        // console.log(resp.data);
         localStorage.setItem("user", JSON.stringify(resp.data));
         setUser(resp.data);
         setOpenDialog(false);
