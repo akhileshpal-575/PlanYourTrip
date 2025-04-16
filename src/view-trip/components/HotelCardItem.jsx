@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function HotelCardItem({ hotel }) {
-  console.log({ hotel });
+  // console.log({ hotel });
 
   return (
     <div className="bg-white dark:bg-gray-900 rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
